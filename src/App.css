@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background:linear-gradient(to left,#355c7d , #6c5b7b, #c06c84);
+  box-sizing: border-box;
+  height: 1000px; 
+}
+
+.list {
+  background:linear-gradient(to right,#355c7d 20%, #6c5b7b 50%, #c06c84);
+  width: 600px;
+  margin: 100px auto;
+  height: 800px;
+  border-radius: 5px;
+  border: rgb(255, 146, 251) inset;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background:linear-gradient(to left,#2d7fc8 , #a764e1, #cf1349);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h4 {
+  font-size: 20px;
+ 
+}
+
+.personImg {
+  display: flex;
+}
+
+.personInfo {
+  margin-top: 55px;
+}
+
+.deleteButton {
+  margin: 60px auto;
+  
+}
+.deleteButton button {
+  background-color: #e97f9d;
+  box-shadow: 3px 3px;
+  border-radius: 3px;
+}
+
+.deleteButton button:hover {
+  width: 80px;
+  height: 30px;
+}
+
+.allClearButton {
+  width: 70px;
+  height: 40px;
+  margin-left: 260px;
+  border-radius: 35px;
+  font-weight: bold;
+  background-color: #c06c84;
+}
+
+.allClearButton:hover {
+  background:linear-gradient(to left,#355c7d , #6c5b7b, #c06c84);
+  width: 90px;
+  height: 55px;
+}
+
